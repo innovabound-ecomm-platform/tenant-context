@@ -6,8 +6,8 @@
  */
 
 import type { Request, Response, NextFunction } from 'express';
-import type { PrismaClient } from '@repo/platform-db';
-import { getPlatformPrisma, getTenantConnection } from '@repo/platform-db';
+import type { PrismaClient } from '@innovabound-ecomm-platform/platform-db';
+import { getPlatformPrisma, getTenantConnection } from '@innovabound-ecomm-platform/platform-db';
 import { TenantContext, type TenantInfo, type PlanType, type TenantLimits, type AddonType } from './context';
 import { extractTenantFromJwt, extractTenantFromHeader, extractBearerToken } from './extractors';
 

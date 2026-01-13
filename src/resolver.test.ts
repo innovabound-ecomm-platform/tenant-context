@@ -12,7 +12,7 @@ import {
 } from './resolver';
 
 // Mock the platform-db module
-vi.mock('@repo/platform-db', () => ({
+vi.mock('@innovabound-ecomm-platform/platform-db', () => ({
   prisma: {
     tenant: {
       findUnique: vi.fn(),

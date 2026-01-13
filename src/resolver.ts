@@ -5,8 +5,8 @@
  * Used by Next.js middleware and API gateways to identify the tenant.
  */
 
-import { prisma } from '@repo/platform-db';
-import type { Tenant, TenantStatus, DomainStatus } from '@repo/platform-db';
+import { prisma } from '@innovabound-ecomm-platform/platform-db';
+import type { Tenant, TenantStatus, DomainStatus } from '@innovabound-ecomm-platform/platform-db';
 
 export interface ResolvedTenant {
   id: string;

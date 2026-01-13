@@ -1,5 +1,5 @@
 /**
- * @repo/tenant-context
+ * @innovabound-ecomm-platform/tenant-context
  *
  * Shared tenant context utilities for multi-tenant services.
  * Provides middleware and helpers for resolving tenant from requests.
