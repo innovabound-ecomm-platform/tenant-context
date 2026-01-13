@@ -1,6 +1,6 @@
 {
   "name": "@innovabound-ecomm-platform/tenant-context",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Tenant context and resolution middleware for multi-tenant e-commerce platform",
   "type": "module",
   "main": "./dist/index.js",
@@ -42,6 +42,6 @@
     "vitest": "^3.0.0"
   },
   "peerDependencies": {
-    "express": "^4.21.0"
+    "express": "^4.21.0 || ^5.0.0"
   }
 }
